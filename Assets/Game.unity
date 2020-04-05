@@ -324,7 +324,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 3e614f5a987333c44894d3f13e9b4b8f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 3e614f5a987333c44894d3f13e9b4b8f, type: 3}
       propertyPath: m_LocalPosition.y
@@ -430,7 +430,7 @@ Light:
   serializedVersion: 10
   m_Type: 0
   m_Shape: 0
-  m_Color: {r: 0.7924528, g: 0.7924528, b: 0.38501248, a: 1}
+  m_Color: {r: 0.6037736, g: 0.599622, b: 0.24777503, a: 1}
   m_Intensity: 5
   m_Range: 14.45
   m_SpotAngle: 121
@@ -537,7 +537,7 @@ RectTransform:
   m_GameObject: {fileID: 399021078}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.8285428, y: 1.8285428, z: 1.8285428}
   m_Children:
   - {fileID: 1712304476}
   m_Father: {fileID: 436287308}
@@ -545,7 +545,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 70.23999, y: -7.1400146}
+  m_AnchoredPosition: {x: 106, y: -718}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &399021080
@@ -567,7 +567,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: dd1686db465691e418eebde48b1df160, type: 3}
+    m_Font: {fileID: 12800000, guid: ff4ebf2f0dbb6e546b7682e72690deba, type: 3}
     m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 1
@@ -737,11 +737,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: dd1686db465691e418eebde48b1df160, type: 3}
-    m_FontSize: 14
+    m_Font: {fileID: 12800000, guid: ff4ebf2f0dbb6e546b7682e72690deba, type: 3}
+    m_FontSize: 16
     m_FontStyle: 0
     m_BestFit: 1
-    m_MinSize: 10
+    m_MinSize: 0
     m_MaxSize: 40
     m_Alignment: 2
     m_AlignByGeometry: 0
@@ -767,14 +767,14 @@ RectTransform:
   m_GameObject: {fileID: 768294123}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2.297213, y: 2.4834738, z: 2.4834738}
   m_Children: []
   m_Father: {fileID: 436287308}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -9.969971, y: -3.350006}
+  m_AnchoredPosition: {x: -8, y: -699}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 1, y: 1}
 --- !u!1 &792477469 stripped
@@ -1240,7 +1240,7 @@ Light:
   serializedVersion: 10
   m_Type: 0
   m_Shape: 0
-  m_Color: {r: 0.7924528, g: 0.7924528, b: 0.38501248, a: 1}
+  m_Color: {r: 0.6037736, g: 0.599622, b: 0.24777503, a: 1}
   m_Intensity: 5.8
   m_Range: 14.45
   m_SpotAngle: 121
@@ -1543,14 +1543,14 @@ RectTransform:
   m_GameObject: {fileID: 1712304475}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.010908, y: 1.010908, z: 1.2357762}
   m_Children: []
   m_Father: {fileID: 399021079}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: -60.1, y: 0}
+  m_AnchoredPosition: {x: -50, y: 0.3}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1712304477
@@ -1572,11 +1572,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: dd1686db465691e418eebde48b1df160, type: 3}
+    m_Font: {fileID: 12800000, guid: ff4ebf2f0dbb6e546b7682e72690deba, type: 3}
     m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 1
-    m_MinSize: 10
+    m_MinSize: 1
     m_MaxSize: 40
     m_Alignment: 0
     m_AlignByGeometry: 0
@@ -1679,7 +1679,7 @@ TrailRenderer:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.9
+        value: 0.49740255
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -1688,7 +1688,7 @@ TrailRenderer:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 1
-        value: 0.1
+        value: 0
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -1700,10 +1700,10 @@ TrailRenderer:
       m_RotationOrder: 4
     colorGradient:
       serializedVersion: 2
-      key0: {r: 0.05882353, g: 1, b: 1, a: 1}
-      key1: {r: 0.078431375, g: 1, b: 1, a: 1}
-      key2: {r: 0.37254903, g: 1, b: 1, a: 1}
-      key3: {r: 0.23921569, g: 1, b: 1, a: 1}
+      key0: {r: 0.05090782, g: 0.72186905, b: 0.8301887, a: 1}
+      key1: {r: 0.028346404, g: 0.53472775, b: 0.8584906, a: 1}
+      key2: {r: 0.1760413, g: 0.8679245, b: 0.7297161, a: 1}
+      key3: {r: 0.61244726, g: 0.37624598, b: 0.8962264, a: 1}
       key4: {r: 0.30980393, g: 1, b: 1, a: 0}
       key5: {r: 0, g: 0, b: 0, a: 0}
       key6: {r: 0, g: 0, b: 0, a: 0}
@@ -1711,7 +1711,7 @@ TrailRenderer:
       ctime0: 0
       ctime1: 16384
       ctime2: 32768
-      ctime3: 49151
+      ctime3: 48380
       ctime4: 65535
       ctime5: 0
       ctime6: 0
@@ -2078,7 +2078,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 90a7c80668bfabc44bddf115b768a7aa, type: 2}
+  - {fileID: 2100000, guid: d76fe87ab09e8804eb1192438d908ef1, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2129,8 +2129,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1799238874}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.80052, y: -2.2344627, z: 6.08}
-  m_LocalScale: {x: 43.088333, y: 34.22309, z: 1.7111546}
+  m_LocalPosition: {x: 1.80052, y: -1.3, z: 6.08}
+  m_LocalScale: {x: 25.472643, y: 19.115253, z: 0.922729}
   m_Children: []
   m_Father: {fileID: 1636662870}
   m_RootOrder: 1
@@ -2183,7 +2183,7 @@ Light:
   serializedVersion: 10
   m_Type: 0
   m_Shape: 0
-  m_Color: {r: 0.7924528, g: 0.7924528, b: 0.38501248, a: 1}
+  m_Color: {r: 0.6037736, g: 0.599622, b: 0.24777503, a: 1}
   m_Intensity: 5.8
   m_Range: 14.45
   m_SpotAngle: 121
@@ -2319,7 +2319,7 @@ TrailRenderer:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.9
+        value: 0.49740255
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -2340,10 +2340,10 @@ TrailRenderer:
       m_RotationOrder: 4
     colorGradient:
       serializedVersion: 2
-      key0: {r: 0.05882353, g: 1, b: 1, a: 1}
-      key1: {r: 0.078431375, g: 1, b: 1, a: 1}
-      key2: {r: 0.37254903, g: 1, b: 1, a: 1}
-      key3: {r: 0.23921569, g: 1, b: 1, a: 1}
+      key0: {r: 0.9150943, g: 0.1032616, b: 0, a: 1}
+      key1: {r: 0.9150943, g: 0.7430581, b: 0.2719384, a: 1}
+      key2: {r: 0.9150943, g: 0.30647027, b: 0.45379946, a: 1}
+      key3: {r: 0.7711776, g: 0.23921567, b: 1, a: 1}
       key4: {r: 0.30980393, g: 1, b: 1, a: 0}
       key5: {r: 0, g: 0, b: 0, a: 0}
       key6: {r: 0, g: 0, b: 0, a: 0}
