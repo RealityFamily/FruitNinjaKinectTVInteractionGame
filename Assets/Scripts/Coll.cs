@@ -36,7 +36,7 @@ public class Coll : MonoBehaviour
 				splat = Instantiate(SplatterCitrus, SliceHit.transform.position + (new Vector3(0, 0, 1)), Quaternion.Euler(0, 180, Random.Range(0, 360)));
 			}
 
-			if (SliceHit.name == "Melon(Clone)")
+			if (SliceHit.name == "Melon(Clone)"|| SliceHit.name == "WaterMellonHD(Clone)")
 			{
 
 				slice1 = Instantiate(MelonSlice, SliceHit.transform.position, Quaternion.identity);
