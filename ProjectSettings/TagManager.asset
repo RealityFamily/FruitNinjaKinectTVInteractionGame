@@ -42,3 +42,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: FX
+    uniqueID: 637957535
+    locked: 0
+  - name: Fruits
+    uniqueID: 2265604921
+    locked: 0
