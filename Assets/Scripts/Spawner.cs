@@ -4,9 +4,13 @@ using System.Collections;
 public class Spawner : MonoBehaviour {
 
 	public GameObject Melone;
-	public GameObject Lemon;
-	public GameObject Apple;
-	public AudioClip spawnSound;
+	public GameObject Kiwi;
+	public GameObject AppleRed;
+    public GameObject AppleGreen;
+    public GameObject Orange;
+    public GameObject Strawberry;
+    public GameObject Coconut;
+    public AudioClip spawnSound;
 	protected int spawned;
 
 	// Use this for initialization
@@ -23,17 +27,29 @@ public class Spawner : MonoBehaviour {
 	void Spawn()
 	{
 		GetComponent<AudioSource>().PlayOneShot(spawnSound);
-		int i = Random.Range (0, 3);
+		int i = Random.Range (0, 7);
 		switch (i) {
 		case 0:
-			Instantiate(Apple, new Vector3(Random.Range(-5,5),-9,-1), Quaternion.identity); 
+			Instantiate(AppleRed, new Vector3(Random.Range(-5,5),-9,-1), Quaternion.identity); 
 			break;
 		case 1:
-			Instantiate(Melone, new Vector3(Random.Range(-5,5),-9,-1), Quaternion.identity); 
-			break;
+			Instantiate(Melone, new Vector3(Random.Range(-5,5),-9,-1), Quaternion.identity);
+            break;
 		case 2:
-			Instantiate(Lemon, new Vector3(Random.Range(-5,5),-9,-1), Quaternion.identity); 
+			Instantiate(Kiwi, new Vector3(Random.Range(-5,5),-9,-1), Quaternion.identity); 
 			break;
+        case 3:
+            Instantiate(AppleGreen, new Vector3(Random.Range(-5, 5), -9, -1), Quaternion.identity);
+            break;
+        case 4:
+            Instantiate(Orange, new Vector3(Random.Range(-5, 5), -9, -1), Quaternion.identity);
+            break;
+        case 5:
+            Instantiate(Strawberry, new Vector3(Random.Range(-5, 5), -9, -1), Quaternion.identity);
+            break;
+        case 6:
+            Instantiate(Coconut, new Vector3(Random.Range(-5, 5), -9, -1), Quaternion.identity);
+            break;
 		}
 
 		if (spawned > 7) {
